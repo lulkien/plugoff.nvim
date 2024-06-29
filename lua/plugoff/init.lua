@@ -1,6 +1,6 @@
-local Config = require("packoff.core.config")
-local Plugin = require("packoff.core.plugin")
-local Util = require("packoff.core.util")
+local Config = require("plugoff.core.config")
+local Plugin = require("plugoff.core.plugin")
+local Util = require("plugoff.core.util")
 
 local M = {}
 

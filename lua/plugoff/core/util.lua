@@ -70,7 +70,7 @@ end
 
 function M.install_package(opts, plugin)
 	local system = vim.system
-	local temp_path = "/tmp/packoff/download"
+	local temp_path = "/tmp/plugoff/download"
 	local package_path = opts.cache .. "/" .. plugin.name .. ".zip"
 	local install_path = opts.root .. "/" .. plugin.name
 

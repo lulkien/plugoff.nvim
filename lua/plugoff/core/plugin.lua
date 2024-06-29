@@ -1,4 +1,4 @@
-local Util = require("packoff.core.util")
+local Util = require("plugoff.core.util")
 
 local M = {}
 

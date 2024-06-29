@@ -1,13 +1,13 @@
-local Util = require("packoff.core.util")
+local Util = require("plugoff.core.util")
 
 local M = {}
 
 M.defaults = {
 	-- Where plugins will be installed.
-	root = vim.fn.stdpath("data") .. "/packoff",
+	root = vim.fn.stdpath("data") .. "/plugoff",
 
 	-- Where packages will be downloaded
-	cache = vim.fn.stdpath("cache") .. "/packoff",
+	cache = vim.fn.stdpath("cache") .. "/plugoff",
 
 	-- Default proxy config
 	proxy = {
